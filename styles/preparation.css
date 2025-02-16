@@ -9,17 +9,16 @@
     align-items: center;
 }
 
-.preparation ul {
-    list-style: outside;
-    width: 90%;
+.preparation ul, .receita ol {
+    list-style-position: outside;
     padding: 10px 20px 0 20px;
-
 }
 
-.preparation li {
-    margin: 10px 20px ;
+.preparation ul li {
+    padding: 5px 15px;
 }
-
 .preparation ul li::marker{
     font-size: 12px;
+    color: var(--brown800);
+    margin-right: 10px;
 }
