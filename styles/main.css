@@ -20,3 +20,37 @@ main {
     gap: 30px;
 }
 
+@media (min-width: 760px) {
+    .caixa-central {
+        width: 80%;
+        margin: 40px auto;
+        border-radius: 20px;
+
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner img {
+        width: 90%;
+        border-radius: 10px;
+        margin: 5%;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .caixa-central {
+        width: 55%;
+        margin: 10% auto;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo {
+        padding: 0 5%;
+    }
+}
