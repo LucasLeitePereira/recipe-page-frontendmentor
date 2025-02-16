@@ -1,0 +1,25 @@
+.preparation {
+    background: var(--rose50);
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preparation ul {
+    list-style: outside;
+    width: 90%;
+    padding: 10px 20px 0 20px;
+
+}
+
+.preparation li {
+    margin: 10px 20px ;
+}
+
+.preparation ul li::marker{
+    font-size: 12px;
+}

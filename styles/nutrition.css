@@ -1,0 +1,14 @@
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: "esquerdo direito";
+}
+
+.esquerdo {
+    grid-column: 1;
+    padding-left: 30px;
+}
+
+.direito {
+    grid-column: 2;
+}

@@ -1,0 +1,32 @@
+.receita {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.receita ul, .receita ol {
+    list-style-position: outside;
+    padding: 10px 20px 0 20px;
+}
+
+.receita ul li {
+    padding: 5px 15px;
+}
+.receita ul li::marker{
+    font-size: 12px;
+    color: var(--brown800);
+    margin-right: 10px;
+}
+
+.receita ol li {
+    padding: 0px 0px 15px 20px;
+    margin-left: 7px;
+}
+
+.receita ol li::marker{
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--brown800);
+    padding: 10px;
+    margin-right: 20px;
+}

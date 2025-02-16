@@ -1,0 +1,59 @@
+.titulo-section {
+    color: var(--brown800);
+
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.descricao h1 {
+    color: var(--stone900);
+
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.paragrafo-simples {
+    font-size: 16px;
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 150%;
+
+    color: var(--stone600);
+}
+
+.titulo-preparation {
+    align-self: flex-start;
+    color: var(--rose800);
+}
+
+.paragrafo-preparation {
+    color: var(--stone600);
+    font-weight: 400;
+}
+
+.receita li {
+    color: var(--stone600);
+}
+
+.nutrition p {
+    margin: 20px 0;
+}
+
+.dado {
+    color: var(--brown800);
+}
+
+.paragrafo-nutrition {
+    width: 95%;
+    font-size: 16px;
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 150%;
+
+    color: var(--stone600);
+}
